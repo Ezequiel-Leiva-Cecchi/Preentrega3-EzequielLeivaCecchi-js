@@ -1,17 +1,17 @@
 let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+const parrafoCart = document.getElementById("parrafoCarrito");
 const borrarDeCarrito = document.getElementById("vaciarCarrito");
 borrarDeCarrito.onclick = vaciarCarrito;
 
 function mostrarProductosEnCarrito() {
-    let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
     let carritoLista = document.getElementById('carrito-lista');
 
     carritoLista.innerHTML = '';
 
     carrito.forEach((producto, index) => {
         let li = document.createElement('li');
-        li.textContent = producto.titulo + " - $" + producto.precio; // Modifica esta línea
-        li.innerHTML += `<button onclick="eliminarProducto(${index})">Eliminar</button>`;
+        li.textContent = producto.titulo + " - $" + producto.precio;
+        li.innerHTML += `<button class="eliminar" onclick="eliminarProducto(${index})">Eliminar</button>`;
         carritoLista.appendChild(li);
     });
 }

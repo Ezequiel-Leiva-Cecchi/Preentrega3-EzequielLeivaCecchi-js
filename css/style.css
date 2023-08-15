@@ -353,6 +353,17 @@ input:valid~label {
 .conten-cart{
 	border: 3px solid #000;
 }
+#carrito-lita{
+	display: none;
+	flex-direction: column;
+}
+#carrito-lita li{
+	text-decoration: list-none;
+}
+#carrito-lista li .eliminar{
+	border-radius: 20px;
+    padding: 1% 2%;
+}
 .boton-vaciar{
 	width: 30%;
 	height: 40px;
@@ -364,7 +375,12 @@ input:valid~label {
 	cursor: pointer;
 	font-size: 1em;
 	font-weight: 600;
+}
+.boton-vaciar:hover{
 	transition: (1s);
+	color: orange;
+	background-color: #204a74;
+	transform: scale(1.2);
 }
  
 /* footer */

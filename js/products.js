@@ -246,7 +246,7 @@ const productosArray = [
 ];
 const contenedor = document.getElementById("contentProducts");
 const cartItem = document.getElementById("cartItems");
-
+localStorage.clear
 for (let i = 0; i < productosArray.length; i++) {
     contenedor.innerHTML += `
    <div class ="product">
@@ -260,7 +260,7 @@ for (let i = 0; i < productosArray.length; i++) {
    `
 }
 function agregarAlCarrito(i) {
-
+   
     carrito.push(productosArray[i]);
 
     localStorage.setItem('carrito', JSON.stringify(carrito));
