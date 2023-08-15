@@ -1,11 +1,19 @@
 let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-const parrafoCart = document.getElementById("parrafoCarrito");
+const parrafoCart = document.getElementById(`parrafoCarrito`);
 const borrarDeCarrito = document.getElementById("vaciarCarrito");
+const botonComprar = document.querySelector(`.boton-comprar`);
 borrarDeCarrito.onclick = vaciarCarrito;
-
+botonComprar.addEventListener("click",() => {
+    Swal.fire({
+        icon: 'success',
+        title: 'Compra Realizada',
+        text: 'Se a realizado la compra exitosamente'
+      });
+      vaciarCarrito();
+})
 function mostrarProductosEnCarrito() {
     let carritoLista = document.getElementById('carrito-lista');
-
+     
     carritoLista.innerHTML = '';
 
     carrito.forEach((producto, index) => {

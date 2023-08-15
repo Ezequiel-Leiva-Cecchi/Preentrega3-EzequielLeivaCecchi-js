@@ -23,7 +23,7 @@ const productosArray = [
     },
     {
         id: "lenovo-03",
-        titulo: "Lenovo thinkpad x1 Yoga",
+        titulo: "Lenovo thinkpad",
         image: "./assets/Lenovo/Lenovo-Thinkpad-X1-Yoga-4ta-Gen.jpg",
         categoria: {
             nombre: "lenovos",
@@ -33,7 +33,7 @@ const productosArray = [
     },
     {
         id: "lenovo-04",
-        titulo: "Lenovo thinkpad x1 fold",
+        titulo: "Lenovo thinkpad fold",
         image: "./assets/Lenovo/lenovo-thinkpad-x1-fold-9.jpg",
         categoria: {
             nombre: "lenovos",
@@ -43,7 +43,7 @@ const productosArray = [
     },
     {
         id: "lenovo-05",
-        titulo: "Lenovo Yoga Slim 7i Pro X",
+        titulo: "Lenovo Yoga Slim 7i",
         image: "./assets/Lenovo/Lenovo-Yoga-Slim-7i-Pro-OLED.png",
         categoria: {
             nombre: "lenovos",
@@ -53,7 +53,7 @@ const productosArray = [
     },
     {
         id: "lenovo-06",
-        titulo: "Lenovo Legion 5 Pro 16",
+        titulo: "Lenovo Legion 5 Pro",
         image: "./assets/Lenovo/lenovo-legion-5-pro-storm-grey-1.jpg",
         categoria: {
             nombre: "lenovos",
@@ -63,7 +63,7 @@ const productosArray = [
     },
     {
         id: "lenovo-07",
-        titulo: "Lenovo thinkpad L14 Pro",
+        titulo: "Lenovo thinkpad L14",
         image: "./assets/Lenovo/Lenovo-L14.jpg",
         categoria: {
             nombre: "lenovos",
@@ -84,7 +84,7 @@ const productosArray = [
     // Productos Asus
     {
         id: "Asus-01",
-        titulo: "Asus tuf gaming dash f15",
+        titulo: "Asus gaming dash f15",
         image: "./assets/Asus/asus-tuf-gaming-dash-f15.jpg",
         categoria: {
             nombre: "Asus",
@@ -94,7 +94,7 @@ const productosArray = [
     },
     {
         id: "Asus-02",
-        titulo: "Asus Vivobook Pro 16X Oled",
+        titulo: "Asus Vivobook 16X ",
         image: "./assets/Asus/asus_vivobook_pro_16x_3d_oled_k6604_2.jpg",
         categoria: {
             nombre: "Asus",
@@ -114,7 +114,7 @@ const productosArray = [
     },
     {
         id: "Asus-04",
-        titulo: "Asus VivoBook 15 R5",
+        titulo: "Asus VivoBook R5",
         image: "./assets/Asus/Asus-VivoBook-15-R5.jpg",
         categoria: {
             nombre: "Asus",
@@ -124,7 +124,7 @@ const productosArray = [
     },
     {
         id: "Asus-05",
-        titulo: "Asus X5 15ea",
+        titulo: "Asus X5 15ea(11va Gen)",
         image: "../assets/Asus/Asus-X5-15EA.jpg",
         categoria: {
             nombre: "Asus",
@@ -144,7 +144,7 @@ const productosArray = [
     },
     {
         id: "Asus-07",
-        titulo: "Asus 14",
+        titulo: "Asus 14 UX425 (11va Gen)",
         image: "./assets/Asus/Asus-14.jpg",
         categoria: {
             nombre: "Asus",

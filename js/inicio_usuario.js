@@ -13,9 +13,17 @@ document.addEventListener("DOMContentLoaded", function () {
         const storedPassword = atob(storedData.password);
         console.log(storedData, storedEmail, storedPassword)
         if (storedEmail === email && storedPassword === password) {
-            loginStatus.textContent = "Cuenta Iniciada.";
+            Swal.fire({
+                icon: 'success',
+                title: 'Bienvenido',
+                text: 'Se a iniciado la cuenta exsitosamente.'
+              });
         } else {
-            loginStatus.textContent = "Error:La cuenta ni está registrada.";
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Algun valor que ingresaste es invalido, vuelva a intentarlo.'
+              });
         }
 
     });

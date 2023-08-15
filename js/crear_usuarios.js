@@ -12,9 +12,17 @@ formHtml.addEventListener(`submit`, (event) => {
     if (emailValidator(email) && validarUsuario(usuario) && checkPasswordSent(password, confirmPassword)) {
         const dataForm = { email, usuario, password };
         localStorage.setItem("dataOfTheForm", JSON.stringify(dataForm));
-        alert("Ingreso un usuario exitosamente");
+        Swal.fire({
+            icon: 'success',
+            title: 'Bienvenido',
+            text: 'Se a iniciado la cuenta exsitosamente.'
+          });
     } else {
-        alert("Error,Uno de los campos no cumple con los requisitos.");
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Algun valor que ingresaste es invalido, vuelva a intentarlo.'
+          });
     }
 });
 
