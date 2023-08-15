@@ -339,6 +339,9 @@ input:valid~label {
 	text-decoration: underline;
 }
 /* carrito */
+.carrito-main{
+	padding: 100px;
+}
 .contentCartItem{
 	display: flex;
 	align-items: center;
@@ -346,6 +349,22 @@ input:valid~label {
 	flex-wrap: wrap;
 	padding: 10%;
 	border: 3px solid #000;
+}
+.conten-cart{
+	border: 3px solid #000;
+}
+.boton-vaciar{
+	width: 30%;
+	height: 40px;
+	color: aliceblue;
+	border-radius: 10px;
+	background: #1b354f;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: 600;
+	transition: (1s);
 }
  
 /* footer */
@@ -362,7 +381,8 @@ footer {
 
 .pie-pagina {
 	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
+	justify-content: space-around;
+	grid-template-columns:  25% 25% 25%;
 
 }
 
