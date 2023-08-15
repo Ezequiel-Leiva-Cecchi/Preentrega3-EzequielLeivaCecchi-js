@@ -235,7 +235,7 @@ const productosArray = [
     },
     {
         id: "HP-08",
-        titulo: "Hp 14 Convertible Pent",
+        titulo: "Hp 14 Convertible",
         image: "../assets/HP/HP_14_Convertible_11th_Gen_i5_8GB_512GB_14”_Silver_laptop.jpg",
         categoria: {
             nombre: "HPs",
