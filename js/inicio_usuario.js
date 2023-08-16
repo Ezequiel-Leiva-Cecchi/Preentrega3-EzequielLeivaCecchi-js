@@ -1,8 +1,7 @@
 // inicio de session
 document.addEventListener("DOMContentLoaded", function () {
     const loginForm = document.getElementById("loginForm");
-    const loginStatus = document.getElementById("loginStatus");
-
+    
     loginForm.addEventListener("submit", function (event) {
         event.preventDefault();
         const email = document.getElementById("email").value;
