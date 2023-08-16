@@ -15,7 +15,7 @@ formHtml.addEventListener(`submit`, (event) => {
         Swal.fire({
             icon: 'success',
             title: 'Bienvenido',
-            text: 'Se a iniciado la cuenta exsitosamente.'
+            text: 'Se a creado la cuenta exsitosamente.'
           });
     } else {
         Swal.fire({
