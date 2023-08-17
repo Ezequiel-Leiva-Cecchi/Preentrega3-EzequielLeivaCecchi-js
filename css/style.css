@@ -361,21 +361,21 @@ input:valid~label {
 	
 }
 #carrito-lista {
-    list-style-type: none; /* Quita los puntos de la lista */
+    list-style-type: none; 
     padding: 0;
     display: flex;
-    flex-direction: column; /* Muestra los elementos en columna */
+    flex-direction: column; 
 }
 
 #carrito-lista li {
-    margin: 10px 0; /* Espaciado entre elementos */
+    margin: 10px 0; 
     padding: 10px;
     border: 1px solid #ccc;
     display: flex;
-    align-items: center; /* Alinea contenido verticalmente */
+    align-items: center; 
 }
 .eliminar {
-    margin-left: auto; /* Mueve el botón "Eliminar" a la derecha */
+    margin-left: auto; 
 }
 #carrito-lista li{
 	display: flex;

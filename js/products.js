@@ -171,7 +171,7 @@ const productosArray = [
             nombre: "HPs",
             id: "HP"
         },
-        precio: 344.000
+        precio: 344.999
     },
     {
         id: "HP-02",
@@ -191,7 +191,7 @@ const productosArray = [
             nombre: "HPs",
             id: "HP"
         },
-        precio: 820.000
+        precio: 820.999
     },
     {
         id: "HP-04",
