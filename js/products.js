@@ -225,7 +225,7 @@ const productosArray = [
     },
     {
         id: "HP-07",
-        titulo: "Hp 15 intel quad core",
+        titulo: "Hp 15 intel quad",
         image: "../assets/HP/hp-15-intel-quad-core.jpg",
         categoria: {
             nombre: "HPs",
